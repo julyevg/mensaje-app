@@ -20,9 +20,7 @@ public class Conexion {
                       "jdbc:mysql://localhost:3306/mensajes_app", 
                       "root",
                       "123456");
-              if(conection != null){
-                    System.out.println("conexion exitosa");
-                  }
+              
           }
           catch(SQLException e){
               System.out.println(e);
